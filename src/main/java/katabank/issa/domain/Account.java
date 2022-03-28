@@ -41,11 +41,11 @@ public class Account {
 	/**
 	 * class constructor
 	 * 
-	 * @param numero
+	 * @param number
 	 */
-	public Account(String numero) {
+	public Account(String number) {
 		super();
-		this.number = numero;
+		this.number = number;
 
 	}
 
