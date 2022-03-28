@@ -31,6 +31,7 @@ public class AccountTest {
 	public static void deleteDirectory() throws IOException {
 		// Charge property file for reading parameters
 		p.loadPropertiesFile();
+		// first, delete directory which is generating test results (is working windows-linux) 
 		ResultUtils.deleteDirectory(p.getDirectoryName());
 	}
 
